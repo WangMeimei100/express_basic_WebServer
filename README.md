@@ -2,7 +2,7 @@
 Express 基礎驗收
 
 # 
-![image](https://github.com/WangMeimei100/express_basic_WebServer/commit/6fb64abd2f738cef1a047c3a963000c33ef054ea)
+![image](https://github.com/WangMeimei100/express_basic_WebServer/blob/6fb64abd2f738cef1a047c3a963000c33ef054ea/Express_Basic_WebSever_index.png)
 
 # Features
 這是一個使用 Express 製作的簡易網頁應用，內容包含4個頁面：
