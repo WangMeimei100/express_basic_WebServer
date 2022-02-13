@@ -1,0 +1,42 @@
+<!-- ./views/layouts/main.handlebars -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Express_basic_WebApp</title>
+  
+  <!-- link css files here -->
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="/stylesheets/all.css">
+</head>
+
+<body class="container">
+  <nav class="navbar">
+    <div class="navbar-left">
+      <button type="button" class="btn">
+        <a href="/">回到首頁</a>
+      </button>
+    </div>
+    <div class="navbar-right">
+      <button type="button" class="btn">
+        <a href="/about">About</a>
+      </button>
+      <button class="btn">
+        <a href="/portfolio">Portfolio</a>
+      </button>
+      <button class="btn">
+        <a href="/contact">Contact</a>
+      </button>
+    </div>
+  </nav>
+  <!-- partial templates will replace the part of "body" here -->
+  {{{ body }}}
+  <!-- include javascript files here -->
+  <script src="/javascripts/popper.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+</body>
+
+</html>
